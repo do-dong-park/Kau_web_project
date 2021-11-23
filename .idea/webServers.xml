@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="64bd68d2-1d71-4e57-8d9b-b2be5b68d633" name="dongkyu_EC2" url="http://dongdong-24.shop">
-        <fileTransfer rootFolder="/var/www/html/KAU" accessType="SFTP" host="3.38.32.36" port="22" sshConfigId="794ab8fd-47a6-4639-a5e3-0cb906b074a6" sshConfig="ubuntu@3.38.32.36:22:22 key" keyPair="true">
+        <fileTransfer rootFolder="/var/www/html/" accessType="SFTP" host="3.38.32.36" port="22" sshConfigId="794ab8fd-47a6-4639-a5e3-0cb906b074a6" sshConfig="ubuntu@3.38.32.36:22:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

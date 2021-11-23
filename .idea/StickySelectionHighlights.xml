@@ -3,6 +3,11 @@
   <component name="StickySelectionHighlights">
     <option name="editorHighlights">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/Helloword.html">
           <value>
             <PaintGroupHighlightMap />
@@ -13,12 +18,52 @@
             <PaintGroupHighlightMap />
           </value>
         </entry>
+        <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/KAU/base/connect_db.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/KAU/hello.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/KAU/main-page/main_page.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/hello.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="&lt;64bd68d2-1d71-4e57-8d9b-b2be5b68d633&gt;/prod/main-page/main_page.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/consoles/db/1ab2127a-3288-4b93-9e0e-5a91a2dcdb43/console.sql">
           <value>
             <PaintGroupHighlightMap />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/Helloword.html">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/base/nav_bar/navbar-nonbootstrap.php">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hello.html">
+          <value>
+            <PaintGroupHighlightMap />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/hello.php">
           <value>
             <PaintGroupHighlightMap />
           </value>
