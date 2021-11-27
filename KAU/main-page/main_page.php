@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>카페 토성에 오신 것을 환영합니다!</title>
+    <title>카페 토성에 오신 것을 환영합니다.</title>
     <link rel="stylesheet" href="css/main_frame.css">
     <link rel="stylesheet" href="/KAU/base/nav_bar/nav_bar.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
