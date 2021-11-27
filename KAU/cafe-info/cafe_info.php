@@ -21,9 +21,9 @@ require_once $_SERVER['DOCUMENT_ROOT']."/KAU/base/nav_bar/navbar-nonbootstrap.ph
     <ul class="Info_text">
         <li id="Info_title"><strong>Information</strong></li>
         <li>☕주소 : 충북 청주시 청원구 토성로 163-1</li>
-        <li>⏰ 10:00-19:00 월-일 연중무휴</li>
-        <li>👩🏻‍🍳 매장에서 직접 굽는 베이커리& all day brunch</li>
-        <li>🌿700평규모야외정원,애견동반🆓입장료는없어요</li>
+        <li>⏰ 10:00~19:00 월-일 연중무휴</li>
+        <li>👩🏻‍🍳 매장에서 직접 굽는 베이커리 & all day brunch</li>
+        <li>🌿700평규모야외정원,애견동반 🆓입장료는없어요</li>
         <li>🚗주차 ~20대 가능</li>
     </ul>
 
