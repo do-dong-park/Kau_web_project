@@ -1,0 +1,17 @@
+
+#footer {
+    background-color: #263343;
+    margin-top: 400px;
+    width: 100%;
+}
+
+
+
+
+.in_footer{padding:10px 0;text-align:center; color:white;position:relative;}
+.in_footer .company_info{padding-top:10px;margin-bottom:0;font-size:0.812rem;}
+.in_footer .company_info li{display:inline-block;list-style:none;line-height:1.7;}
+.in_footer .company_info li:after{padding:0 14px;content:'l';}
+.in_footer .company_info li:last-child:after{display:none;}
+.in_footer .copyright{margin-top:2rem;}
+.in_footer .r_box{width:100%;max-width:175px;position:absolute;top:30px;right:0;font-size:0.75rem;}

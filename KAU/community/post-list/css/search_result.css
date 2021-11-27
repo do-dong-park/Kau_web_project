@@ -1,0 +1,91 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+    --navy-color: #263343;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+
+}
+
+.QnA-section {
+    height: 100%;
+    width: 80%;
+
+    /*section을 가운데 정렬합니다.*/
+    margin: 0 auto;
+    padding-top: 50px;
+
+    /*flex는 내부 요소들을 크기 및 동적상태 여하와 상관 없이 각 요소를 정렬할 수 있는 방법을 제공한다.*/
+    /*flex는 container와 item에 적용하는 속성이 구분되어 있다.*/
+    /*flex container요소 중 justify-content는 주 축의 정렬방법을 설정합니다. align-items는 교차 축에서 item의 정렬방법을 설정합니다*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+#search_box {
+    margin-top: 10px;
+    float: right;
+}
+
+
+
+.QnA-main-title {
+    margin-top: 30px;
+    padding: 15px;
+    /*border-bottom: solid 3px black;*/
+}
+
+.QnA-main-title>h1 {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.QnA-main-title button {
+    float: right;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.QnA-table {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.QnA-table-body a {
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+
+.pagination {
+    justify-content: center;
+}
+
+.re_ct {color:red;}

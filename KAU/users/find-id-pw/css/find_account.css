@@ -1,0 +1,77 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll :no;
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    /*부모 컨테이너는 body, 35%만큼의 너비를 갖음.*/
+    width : 35%;
+    height: 100%;
+    width-max : 800px;
+
+    /*section이란 box의 위치가 한가운데*/
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.select_tab{
+    padding : var(--padding) 0;
+}
+
+section .find_account_title {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+section .find_account_title {
+    font-size: calc(var(--font-large)*2);
+}
+
+.find_account {
+    padding : calc(var(--padding)/2);
+}
+
+.find_account .form-label {
+    padding: 8px;
+    margin-bottom: 0px;
+}
+
+.btn-primary {
+    margin-top :40px;
+    padding-top: var(--padding);
+}
+

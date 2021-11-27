@@ -1,0 +1,89 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+    --navy-color: #263343;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    height: 100%;
+
+}
+
+.QnA-modify-section {
+    /*height: 100vh;*/
+    width: 60%;
+    height: 100%;
+
+    /*section을 가운데 정렬합니다.*/
+    margin: 0 auto;
+    padding-top: 50px;
+
+    /*flex는 내부 요소들을 크기 및 동적상태 여하와 상관 없이 각 요소를 정렬할 수 있는 방법을 제공한다.*/
+    /*flex는 container와 item에 적용하는 속성이 구분되어 있다.*/
+    /*flex container요소 중 justify-content는 주 축의 정렬방법을 설정합니다. align-items는 교차 축에서 item의 정렬방법을 설정합니다*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.QnA-modify-main-title {
+    /*margin-left: 30px;*/
+    padding-bottom: 15px;
+    border-bottom: solid 2px black;
+}
+
+.QnA-modify-main-title .title{
+    display: inline-block;
+}
+
+.QnA-modify-main-title button {
+    float: right;
+
+}
+
+.QnA-input-area {
+    margin-top: 10px;
+    /*height: 100%;*/
+}
+
+.QnA-input-description {
+    margin-top: 10px;
+    /*height: 100%;*/
+}
+
+textarea{
+    width:500px;
+    height:100px;
+    resize:none;/* 크기고정 */
+    /*   resize: horizontal; // 가로크기만 조절가능
+        resize: vertical;  세로크기만 조절가능  */
+}
+
+.ck-editor__editable {
+    min-height: 400px;
+}

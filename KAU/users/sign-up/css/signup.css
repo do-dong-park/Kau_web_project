@@ -1,0 +1,88 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    /*부모 컨테이너는 body, 35%만큼의 너비를 갖음.*/
+    width : 35%;
+    height: 100%;
+    width-max : 800px;
+
+    /*section이란 box의 위치가 한가운데*/
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section .signup_logo {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: calc(var(--font-large)*2);
+}
+
+.signup_input {
+    padding : calc(var(--padding)/2);
+}
+
+.signup_input .form-label {
+    padding: 8px;
+    margin-bottom: 0px;
+}
+
+.signup_option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding : var(--padding);
+}
+
+.signup_option .auto_option {
+    margin: 8px 0px 8px;
+}
+
+.signup_option .auto_option .link{
+    float: right;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.btn-primary {
+    margin-top :var(--padding);
+    padding-top: var(--padding);
+}
+

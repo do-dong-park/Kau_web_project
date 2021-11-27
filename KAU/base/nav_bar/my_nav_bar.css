@@ -1,0 +1,140 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: #d49466;
+}
+
+dl, ol, ul {
+    margin-bottom: 0;
+}
+
+/*nav bar에 폰트 지정*/
+.my-navbar {
+
+}
+
+/*링크 만드는 놈 스타일 지정*/
+.my-navbar a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.my-navbar a:hover {
+    color: var(--text-color);
+}
+
+/*nav bar 배치 지정*/
+.my-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+
+    padding: 0px 12px;
+    line-height: 3;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*로고의 위치 글자색 지정*/
+.my-navbar_logo {
+    margin-right: 150px;
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+.logined_profile {
+    padding: 35px 18px 10px 18px;
+    text-align: center;
+    font-size: 15px;
+    line-height: normal;
+}
+
+/*로고 박스 내 아이콘의 색깔 지정*/
+.my-navbar_logo i {
+    color: var(--accent-color);
+}
+
+/*메뉴 박스 내 의 배치 지정*/
+.my-navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+/*메뉴 아이템의 패딩 지정*/
+.my-navbar_menu li {
+    margin: 0px 20px;
+    padding: 4px 18px;
+}
+
+/*메뉴 아이템 위에 마우스 올라갈 때 변화 지정*/
+.my-navbar_menu li:hover {
+    background-color: var(--accent-color);
+    border-radius: 4px;
+}
+
+/*소셜 아이콘들의 폰트 사이즈 지정*/
+.my-navbar_icons {
+    font-size: 36px;
+    list-style: none;
+    color: var(--text-color);
+    display: flex;
+    padding-left: 0;
+}
+
+.my-navbar_icons li {
+    margin: 0px 20px;
+    padding: 4px 12px;
+}
+
+.my-navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: var(--accent-color);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .my-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .my-navbar_logo {
+        order: 1;
+    }
+
+    .my-navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        order: 2;
+    }
+
+    .my-navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .my-navbar_icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+        order: 3;
+    }
+
+    .my-navbar_toggleBtn {
+        display: block;
+    }
+
+    .my-navbar_menu.active,
+    .my-navbar_icons.active {
+        display: flex;
+    }
+}

@@ -1,0 +1,29 @@
+.reply_list {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    border-bottom: 1px lightgrey solid;
+}
+.reply_list a{
+    color: black;
+}
+
+.reply_control {
+    display: inline-block;
+}
+
+form {
+    display: inline;
+}
+textarea {
+    resize: none;
+}
+
+.reply_modify_input {
+    display: none;
+}
+
+.reply_reply_input {
+    width: 80%;
+    margin-left: 20px;
+    display: none;
+}

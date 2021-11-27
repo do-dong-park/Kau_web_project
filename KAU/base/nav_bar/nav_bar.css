@@ -1,0 +1,131 @@
+:root {
+    --text-color: #f0f4f5;
+    --background-color: #263343;
+    --accent-color: #d49466;
+}
+
+/*nav bar에 폰트 지정*/
+nav {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*링크 만드는 놈 스타일 지정*/
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*nav bar 배치 지정*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color);
+    padding: 0px 12px;
+}
+
+/*로고의 위치 글자색 지정*/
+.navbar_logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    font-size: 24px;
+    color: var(--text-color);
+}
+
+/*로고 박스 내 아이콘의 색깔 지정*/
+.navbar_logo i {
+    color: var(--accent-color);
+}
+
+/*메뉴 박스 내 의 배치 지정*/
+.navbar_menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+/*메뉴 아이템의 패딩 지정*/
+.navbar_menu li {
+    margin: 0px 20px;
+    padding: 4px 18px;
+}
+
+/*메뉴 아이템 위에 마우스 올라갈 때 변화 지정*/
+.navbar_menu li:hover {
+    background-color: var(--accent-color)!important;
+    border-radius: 4px;
+}
+
+/*소셜 아이콘들의 폰트 사이즈 지정*/
+.navbar_icons {
+    font-size: 36px;
+    list-style: none;
+    color: var(--text-color);
+    display: flex;
+    padding-left: 0;
+}
+
+.navbar_icons li {
+    margin: 0px 20px;
+    padding: 4px 12px;
+}
+
+.navbar_toggleBtn {
+    display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 24px;
+    color: var(--accent-color);
+}
+
+.navbar_icons .logined_profile {
+    padding: 10px 18px 10px 18px;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar_logo {
+        position: static;
+        order: 1;
+    }
+
+    .navbar_menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        order: 2;
+    }
+
+    .navbar_menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar_icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+        order: 3;
+    }
+
+    .navbar_toggleBtn {
+        display: block;
+    }
+
+    .navbar_menu.active,
+    .navbar_icons.active {
+        display: flex;
+    }
+}

@@ -1,0 +1,96 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll :no;
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    /*부모 컨테이너는 body, 35%만큼의 너비를 갖음.*/
+    width : 35%;
+    height: 100%;
+    width-max : 800px;
+
+    /*section이란 box의 위치가 한가운데*/
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section .login_logo {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: calc(var(--font-large)*2);
+}
+
+.login_logo_link {
+    color : black;
+    text-decoration: none;
+}
+
+.login_input {
+    padding : calc(var(--padding)/2);
+}
+
+.login_input .form-label {
+    padding: 8px;
+    margin-bottom: 0px;
+}
+
+.login_option {
+    display: flex;
+    justify-content: space-between;
+    padding : var(--padding);
+}
+
+
+
+.login_option .another_option {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login_option .another_option li {
+    padding : 0 calc(var(--padding)/2);
+}
+
+.login_option .another_option a {
+    color: var(--black-color);
+    text-decoration: none;
+}
+
+.btn-primary {
+    margin-top :var(--padding);
+    padding-top: var(--padding);
+}

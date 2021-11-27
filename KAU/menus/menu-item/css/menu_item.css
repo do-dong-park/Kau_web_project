@@ -1,0 +1,199 @@
+:root {
+    /*color*/
+    --white-color: white;
+    --black-color: black;
+    --grey-light-color: lightgrey;
+    --grey-dark-color: darkgray;
+    --navy-color: #263343;
+
+    /*size*/
+    --padding: 12px;
+    --avatar-size: 36px;
+
+    /*font size*/
+    --font-large: 32px;
+    --font-medium: 14px;
+    --font-small: 12px;
+    --font-micro: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+
+    /*스크롤을 없애주는 아주 고마운 친구^^*/
+    /*overflow: hidden;*/
+}
+
+.t1 {
+    height: 80px;
+}
+
+.menu-info-section {
+    height: 80vh;
+
+    /*내부에 있는 모든 요소들을 한가운데 정렬합니다.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-info-section .menu-image-frame {
+
+    border: var(--navy-color) 1px solid;
+    border-radius: 4px;
+
+}
+
+.menu-info-section .menu-info-script {
+    width: 600px;
+    height: 450px;
+
+    margin-left: 30px;
+
+    /*제목과 설명의 비율은 1:2가 좋겠어요*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-info-section .menu-title-frame {
+    height: 20%;
+    border-bottom: 2px black solid;
+}
+
+.menu-title-text {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    display: inline-block;
+    padding-bottom: 10px;
+
+
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    border-bottom: 2px solid #333;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+}
+
+.menu-info-section .menu-description {
+    height: 67%;
+    padding-top: 30px;
+}
+
+#footer {
+    background-color: #263343;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.in_footer{padding:10px 0;text-align:center; color:white;position:relative;}
+.in_footer .company_info{padding-top:10px;margin-bottom:0;font-size:0.812rem;}
+.in_footer .company_info li{display:inline-block;list-style:none;line-height:1.7;}
+.in_footer .company_info li:after{padding:0 14px;content:'l';}
+.in_footer .company_info li:last-child:after{display:none;}
+.in_footer .copyright{margin-top:2rem;}
+.in_footer .r_box{width:100%;max-width:175px;position:absolute;top:30px;right:0;font-size:0.75rem;}
+
+
+
+body {
+    font-family: 'nbg', '맑은 고딕', HelveticaNeue, DroidSans, Sans-serif, Helvetica;
+    font-size: 1em;
+    line-height: 1;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+div.product_info_head {
+    height: 59px;
+    line-height: 59px;
+    position: relative;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+div.product_info_head p.tit {
+    font-size: 18px;
+    color: #222;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+div.product_info_head span.unit {
+    font-size: 18px;
+    color: #666;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+div.product_info_content {
+    width: 100%;
+    background: url(//image.istarbucks.co.kr/common/img/menu/detail_bg.jpg) center 0 repeat-y;
+    margin: 20px 0;
+}
+
+div.product_info_content ul {
+    width: 50%;
+    float: left;
+}
+
+div.product_info_content li {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    line-height: 1.6;
+}
+
+nav ul, li {
+    list-style: none;
+}
+
+div.product_info_content dl {
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+}
+
+div.product_info_content dl dt {
+    float: left;
+    width: 85%;
+}
+
+div.product_info_content dl dd {
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+
+div.product_info_content dl:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div.product_info_content dl {
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+}
+
+.product_factor{
+
+    margin-left: 40px;
+}
+
+
+
